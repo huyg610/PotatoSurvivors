@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Player Stats
     public static float playerHealth = 10;
+    public static float playerXP = 0;
+
+
+
     public KeyCode jumpKey;
     public float speed = 10f;
     void Update()
